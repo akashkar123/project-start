@@ -1,0 +1,89 @@
+
+/* start header */
+.banner{
+    position: relative;
+    margin: 0%;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../asset/banner.jpg);
+    background-size: cover;
+
+}
+
+.banner h1{
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 7rem;
+}
+
+.banner p{
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 1rem;
+}
+
+/* end header */
+
+/* start content */
+.feature{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.feature.row{
+    width: 100%;
+    height: 100%;
+
+}
+
+.col-sm-4{
+    height: 80vh;
+}
+
+.col-sm-4 img{
+    width: 100%;
+    height: 80vh;
+    padding: 3%;
+}
+
+.col-sm-8{
+    width: 100%;
+    height: 100%;
+}
+ 
+.col-sm-8 h3{
+    padding: 7% 10% 3% 10%;
+    text-align: left;
+}
+
+.col-sm-8 p{
+    padding: 10%;
+    text-align: left;
+    color: grey;
+}
+
+.product{
+    box-sizing: border-box;
+    padding: 2%;
+    width: 100%;
+    height: 100vh;
+    padding: 5% ;
+}
+
+
+.product.row{
+    width: 100%;
+    height: 100vh;
+}
+
+/* end content */
+
+footer{
+    min-height: 0px;
+    background-color: grey;
+    color: honeydew;
+    padding: 7%;
+}
